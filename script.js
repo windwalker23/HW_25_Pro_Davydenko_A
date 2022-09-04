@@ -20,8 +20,6 @@ const controller = async (path, method = "GET", body) => {
 	return response;
 }
 
-console.log(controller(`/heroes`));
-
 // REGISTRATION HERO
 
 const regForm = document.getElementById("heroes_form");
