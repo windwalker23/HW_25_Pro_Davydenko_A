@@ -1,0 +1,37 @@
+body {
+  padding: 20px 50px;
+}
+
+button {
+  background: #8EA7FF;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 40px;
+  color: white;
+  cursor: pointer;
+}
+
+#heroes_form {
+  padding: 10px 20px;
+  background-color: #F8F8F8;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  display: inline-flex;
+}
+#heroes_form input, #heroes_form select {
+  margin-left: 5px;
+  text-align: center;
+}
+#heroes_form label {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#hero_tbody td {
+  width: 110px;
+  text-align: center;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
